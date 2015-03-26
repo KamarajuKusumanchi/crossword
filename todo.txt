@@ -1,0 +1,3 @@
+How to sort the file so that the sort order remains the same as Google docs?
+
+Can the file be correctly imported by localc?
