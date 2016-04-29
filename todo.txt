@@ -1,1 +1,2 @@
-Can the file be correctly imported by localc?
+Can the file be correctly imported by localc (Libre Office Spreadsheet
+application)?
