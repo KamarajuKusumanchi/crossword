@@ -1,0 +1,7 @@
+cd database
+Add an entry to cross_word_database.tsv
+
+Sort the database
+../src/sort_cw_data.sh cross_word_database.tsv
+
+review the changes and commit.
