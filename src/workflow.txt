@@ -1,7 +1,7 @@
-cd database
-Add an entry to cross_word_database.tsv
+Add entries to database/cross_word_database.tsv . You can add them anywhere as
+they will be sorted later on.
 
 Sort the database
-../src/sort_cw_data.sh cross_word_database.tsv
+ src/sort_cw_data.sh database/cross_word_database.tsv
 
 review the changes and commit.
