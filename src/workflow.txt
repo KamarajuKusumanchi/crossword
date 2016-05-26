@@ -1,6 +1,9 @@
 Add entries to database/cross_word_database.tsv . You can add them anywhere as
 they will be sorted later on.
 
+We use tabs to distinguish between the fields. Make sure that the editor does
+not expand tabs into spaces. In vim, this is done by setting :set noexpandtab.
+
 Sort the database
  src/sort_cw_data.sh database/cross_word_database.tsv
 
