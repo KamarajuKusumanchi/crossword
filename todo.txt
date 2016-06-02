@@ -4,6 +4,8 @@ application)?
 Some entries in database/cross_word_database.tsv have spaces as separators instead of tabs. Fix this later.
 
 Before committing the file
-  make sure that all lines have at least one tab.
-  there are no duplicate lines
+  1. make sure that all lines have at least one tab. To check this, run
+    grep -vP "\t" database/cross_word_database.tsv
+  there should not be any output.
+  2. there are no duplicate lines
 Is it possible to do this automatically?
