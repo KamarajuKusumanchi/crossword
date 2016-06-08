@@ -8,4 +8,5 @@ Before committing the file
     grep -vP "\t" database/cross_word_database.tsv
   there should not be any output.
   2. there are no duplicate lines
+    cut -f 1-2 database/cross_word_database.tsv  | sort | uniq -c | sort -n
 Is it possible to do this automatically?
