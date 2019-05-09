@@ -1,4 +1,4 @@
-#! /bin/zsh
+#! /bin/bash
 
 # use this command to keep the cross word database in the sorted order.
 #
